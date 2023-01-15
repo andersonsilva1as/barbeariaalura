@@ -1,0 +1,100 @@
+header{
+    background-color: darkgray;
+    padding: 20px 0;
+}
+.container{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+nav{
+    position: absolute;
+    top: 0110px;
+    right: 110px;
+}
+nav li {
+    display: inline;
+    margin-left: 20px;
+}
+nav a {
+    text-transform: uppercase;
+    color: #000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+nav a:hover{
+    color: #C78C19;
+}
+.listProducts{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0; 
+}
+.listProducts li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000;
+    border-radius: 10px;
+}
+.listProducts li:hover{
+    border-color: #C78C19;
+}
+.listProducts li:active{
+    border-color: #088C19;
+}
+.listProducts li:hover h2{
+    font-size: 35px;
+}
+.listProducts h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+.product-description {
+    font-size: 18px;
+}
+.product-price {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+
+form{
+    margin: 40px 0;
+}
+
+form label, form p{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padrao{
+    display: block;
+    margin: 0 0 20px;
+    width: 50%;
+    padding: 5px 25px;
+    font-size: 15px;
+}
+
+.checkbox{
+    margin: 20px 0;
+}
+
+footer {
+    text-align: center;
+    color: #FFF;
+    background: url("./images/bg.jpg");
+    padding: 40px 0px;
+
+}

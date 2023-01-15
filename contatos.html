@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="h1-title">
+                <img src="./images/logo.png" >
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Produtos</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </nav>
+            </h1>
+        </div>
+    </header>
+    <main>
+        <form>
+            <label for="nomesobrenome">Nome e Sobrenome</label>
+            <input type="text" id="nomesobrenome" class="input-padrao">
+
+            <label for="email">Email</label>
+            <input type="text" id="email" class="input-padrao">
+
+            <label for="phone">Telefone</label>
+            <input type="text" id="phone" class="input-padrao">
+
+            <label for="mensagem">Mensagem</label>
+            <textarea cols="30" rows="10" id="mensagem" class="input-padrao"></textarea>
+            <div>
+                <p>Como prefere o meu contato?</p>
+                <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">Email</label>
+                
+                <label for="radio-phone"><input type="radio" name="contato" value="telefone" id="radio-phone">Telefone</label>
+                
+                <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsApp" id="radio-whatsapp">WhatsApp</label>            
+            </div>
+
+            <label class="checkbox"><input type="checkbox"> Gostaria de receber nosas novidades por e-mail ?</label>
+
+            <input type="submit" value="Enviar Formulário">
+        </form>
+    </main>
+    <footer>
+        <img src="./images/logo-branco.png"/>
+        <p>&copy; Copyright Barbearia Alura - 2019</p>
+    </footer>
+</body>
+</html>
